@@ -1,0 +1,11 @@
+<!--
+    Two Way Binding Implemented Manually
+-->
+city <input type="text" (keyup)="updateCityNew(ip.value)" #ip [value]="city"> 
+<button class="btn btn-primary" (click)="updateCity()">Update City</button>
+
+<!--
+    Two Way Binding Implemented using ngModel(Angular Features)
+-->
+
+{{city}}
