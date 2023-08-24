@@ -1,0 +1,13 @@
+<!--
+    This Component is For Ng IF Component
+-->
+
+<h1 *ngIf="isHeading">This is heading component</h1>
+
+<!--
+    Loading example
+-->
+<h1 *ngIf="!data" else sample>Loading ...</h1>
+<ng-template #sample>
+    <h1>Sample</h1>
+</ng-template>
