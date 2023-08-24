@@ -15,4 +15,5 @@ updateCityNew(cityName:string)
 {
   this.city = cityName
 }
+person = "Aakash"
 }
